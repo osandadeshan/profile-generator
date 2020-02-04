@@ -1,0 +1,21 @@
+Mock Server Configuration: 26646
+	Mock Server ActiveMQ: 12332
+	------------------
+	AS Portal UI: 23490
+	AS Backend: 19862
+	AS Backend Internal: 29290
+	WPP Admin Portal UI: 23330
+	WPP Admin Backend: 19072
+	------------------
+	Authentication Service: 13379
+	Notification Service: 1206
+	Product Service: 3476
+	Participants Service: 18878
+	Funder Dashboard: 9294
+	Funder Dashboard UI: 1696
+	AS BPM: 5522
+	------------------
+	Fake Email Server: 9284
+	AWS S3 Server: 12467
+	EM FTP Server: 3308
+	Emulated Thirdparty Services Port: 21561

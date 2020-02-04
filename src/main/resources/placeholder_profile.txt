@@ -1,0 +1,22 @@
+<profile>
+   <id>run-on-backend-mock-custom</id>
+   <properties>
+      <backend.mock.application.configurer.port>#placeHolder01</backend.mock.application.configurer.port>
+      <backend.mock.application.port>#placeHolder02</backend.mock.application.port>
+      <backend.mock.as2.service.port>#placeHolder03</backend.mock.as2.service.port>
+      <backend.mock.as2.service.internal.port>#placeHolder04</backend.mock.as2.service.internal.port>
+      <backend.mock.admin.ui.port>#placeHolder05</backend.mock.admin.ui.port>
+      <backend.mock.admin.port>#placeHolder06</backend.mock.admin.port>
+      <backend.mock.auth.service.port>#placeHolder07</backend.mock.auth.service.port>
+      <backend.mock.notification.service.port>#placeHolder08</backend.mock.notification.service.port>
+      <backend.mock.orderservice.service.port>3069</backend.mock.orderservice.service.port>
+      <backend.mock.wpp.product.service.port>#placeHolder09</backend.mock.wpp.product.service.port>
+      <backend.mock.participant.port>#placeHolder10</backend.mock.participant.port>
+      <backend.mock.funder.dashboard.port>#placeHolder11</backend.mock.funder.dashboard.port>
+      <backend.mock.funder.dashboard.ui.port>#placeHolder12</backend.mock.funder.dashboard.ui.port>
+      <backend.mock.activiti.bpm.port>#placeHolder13</backend.mock.activiti.bpm.port>
+      <backend.mock.aws.s3.port>#placeHolder14</backend.mock.aws.s3.port>
+      <backend.mock.ftp.port>#placeHolder15</backend.mock.ftp.port>
+      <run.tests.on>backend-mock</run.tests.on>
+   </properties>
+</profile>
