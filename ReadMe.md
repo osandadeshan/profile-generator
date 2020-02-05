@@ -30,6 +30,7 @@ The main reason for developing this tool is to reduce the time taken to copy & p
 1) Clone this project to your local machine.
 2) Copy the whole port list from the jenkins console (Ctrl + C). This will add the copied string to the system clipboard. \
 Ex:- 
+Please note that the star`(*)` indicates a service
 ```
 	Mo**** **** ****: 26646
 	Mock **** **** ****: 12332
