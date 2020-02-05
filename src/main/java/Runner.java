@@ -6,7 +6,7 @@ import static generator.ProfileGenerator.generateAndCopyProfileToClipboard;
  * Version         : 1.0.0
  * Date            : 2/4/2020
  * Time            : 4:42 PM
- * Description     :
+ * Description     : This class can be used to run ProfileGenerator.java
  **/
 
 

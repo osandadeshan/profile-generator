@@ -33,8 +33,8 @@ public class ProfileGenerator {
     private static String profile, portsFromJenkins;
 
     /*
-    Read "placeholder_profile.txt" text file and assign the content to "profile".
-    Read system clipboard and assign the content to "portsFromJenkins"
+    Read "placeholder_profile.txt" text file and assign the content to "profile" string
+    Read system clipboard and assign the content to "portsFromJenkins string"
     */
     static {
         try {
@@ -46,23 +46,23 @@ public class ProfileGenerator {
     }
 
     public static void generateAndCopyProfileToClipboard() {
-        // Split the whole string "portsFromJenkins" by line breaks and assign it to a string array named "portsArray"
+        // Split the whole "portsFromJenkins" string by line breaks and assign it to a string array named "portsArray"
         String[] portsArray = portsFromJenkins.split("\\r?\\n");
 
-        // Remove the dash line elements from the array "portsArray"
+        // Remove the dash line elements from the "portsArray" string array
         portsArray = ArrayUtils.remove(portsArray, 2);
         portsArray = ArrayUtils.remove(portsArray, 7);
         portsArray = ArrayUtils.remove(portsArray, 14);
 
-        // Remove the unwanted elements from the array "portsArray" (Mock Server ActiveMQ:, Fake Email Server:, Emulated Thirdparty Services Port:)
+        // Remove the unwanted elements from the "portsArray" string array (Mock Server ActiveMQ:, Fake Email Server:, Emulated Thirdparty Services Port:)
         portsArray = ArrayUtils.remove(portsArray, 1);
         portsArray = ArrayUtils.remove(portsArray, 13);
         portsArray = ArrayUtils.remove(portsArray, 15);
 
-        // Create a string array list named "portsArrayList" from the string array "portsArray"
+        // Create a string array list named "portsArrayList" from the "portsArray" string array
         ArrayList<String> portsArrayList = new ArrayList<>(Arrays.asList(portsArray));
 
-        // Assign real port number to the string "profile"
+        // Assign real port number to the "profile" string
         for (int i = 1; i <= portsArrayList.size(); i++) {
             Matcher matcher = Pattern.compile(": ").matcher(portsArrayList.get(i - 1));
             if (matcher.find()) {
@@ -74,13 +74,16 @@ public class ProfileGenerator {
             }
         }
 
-        // Print the processed profile to the console
+        // Get rid of whitespaces (spaces, new lines etc.) from the beginning and end of the "profile" string
+        profile = profile.trim();
+
+        // Print the processed "profile" string to the console
         System.out.println(profile);
 
-        // Write the processed profile to a text file
+        // Write the processed "profile" string to a text file
         write(profile, "processed_profile.txt");
 
-        // Copy the processed profile to the system clipboard
+        // Copy the processed "profile" string to the system clipboard
         copyToClipboard(profile);
     }
 
