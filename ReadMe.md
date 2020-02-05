@@ -26,7 +26,7 @@ The main reason for developing this tool is to minimize the hassle and time cons
 2. Maven
 <br />
 
-## How to use
+## How to use?
 1) Clone this project to your local machine.
 2) Copy the whole port list from the jenkins console (Ctrl + C). This will add the copied string to the system clipboard. \
 Ex:- 
