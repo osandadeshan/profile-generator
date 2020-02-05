@@ -2,7 +2,7 @@
 <br />
 
 ## Introduction
-The main reason for developing this tool is to reduce the time taken to copy & paste ports for the relavent services one by one.
+The main reason for developing this tool is to minimize the hassle and time consumption in copy pasting ports for each service from **jenkins** into the **`pom.xml`**.
 <br /><br />
 
 ## Tools & Technologies used
@@ -30,7 +30,7 @@ The main reason for developing this tool is to reduce the time taken to copy & p
 1) Clone this project to your local machine.
 2) Copy the whole port list from the jenkins console (Ctrl + C). This will add the copied string to the system clipboard. \
 Ex:- 
-Please note that the star`(*)` indicates a service
+Please note that the stars`(****)` indicate a service
 ```
 	Mo**** **** ****: 26646
 	Mock **** **** ****: 12332
