@@ -27,9 +27,9 @@ The main reason for developing this tool is to reduce the time taken to copy & p
 <br />
 
 ## How to use
-1) Clone this project to your local machine
-2) Copy the whole port list from the jenkins console (Ctrl + C) \
-Ex: 
+1) Clone this project to your local machine.
+2) Copy the whole port list from the jenkins console (Ctrl + C). This will add the copied string to the system clipboard. \
+Ex:- 
 ```
 	Mo**** **** ****: 26646
 	Mock **** **** ****: 12332
@@ -54,5 +54,5 @@ Ex:
 	**** **** **** Services Port: 21561
 ```
 3) Double click on **`run.bat`**
-4) Go to your **`pom.xml`** file and in the profiles section paste the formatted profile (Ctrl + V)
+4) Go to your **`pom.xml`** file and in the profiles section paste the formatted profile (Ctrl + V). This will paste the converted profile in to the **`pom.xml`**
 <br />
