@@ -52,10 +52,11 @@ public class ProfileGenerator {
         // Remove the dash line elements from the "portsArray" string array
         portsArray = ArrayUtils.remove(portsArray, 2);
         portsArray = ArrayUtils.remove(portsArray, 7);
-        portsArray = ArrayUtils.remove(portsArray, 14);
+        portsArray = ArrayUtils.remove(portsArray, 15);
 
-        // Remove the unwanted elements from the "portsArray" string array (Mock Server ActiveMQ:, Fake Email Server:, Emulated Thirdparty Services Port:)
+        // Remove the unwanted elements from the "portsArray" string array (Mock Server ActiveMQ:, Fake Email Server:, Funder Dashboard Admin:, Emulated Thirdparty Services Port:)
         portsArray = ArrayUtils.remove(portsArray, 1);
+        portsArray = ArrayUtils.remove(portsArray, 11);
         portsArray = ArrayUtils.remove(portsArray, 13);
         portsArray = ArrayUtils.remove(portsArray, 15);
 
