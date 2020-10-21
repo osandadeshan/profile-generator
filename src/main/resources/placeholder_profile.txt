@@ -11,12 +11,15 @@
       <backend.mock.notification.service.port>#placeHolder08</backend.mock.notification.service.port>
       <backend.mock.orderservice.service.port>3069</backend.mock.orderservice.service.port>
       <backend.mock.wpp.product.service.port>#placeHolder09</backend.mock.wpp.product.service.port>
-      <backend.mock.participant.port>#placeHolder10</backend.mock.participant.port>
-      <backend.mock.funder.dashboard.port>#placeHolder11</backend.mock.funder.dashboard.port>
-      <backend.mock.funder.dashboard.ui.port>#placeHolder12</backend.mock.funder.dashboard.ui.port>
-      <backend.mock.activiti.bpm.port>#placeHolder13</backend.mock.activiti.bpm.port>
-      <backend.mock.aws.s3.port>#placeHolder14</backend.mock.aws.s3.port>
-      <backend.mock.ftp.port>#placeHolder15</backend.mock.ftp.port>
+      <backend.mock.proofing.service.port>#placeHolder10</backend.mock.proofing.service.port>
+      <backend.mock.proofing.service.internal.port>#placeHolder11</backend.mock.proofing.service.internal.port>
+      <backend.mock.participant.port>#placeHolder12</backend.mock.participant.port>
+      <backend.mock.funder.dashboard.port>#placeHolder13</backend.mock.funder.dashboard.port>
+      <backend.mock.woad.admin.port>#placeHolder14</backend.mock.woad.admin.port>
+      <backend.mock.funder.dashboard.ui.port>#placeHolder15</backend.mock.funder.dashboard.ui.port>
+      <backend.mock.activiti.bpm.port>#placeHolder16</backend.mock.activiti.bpm.port>
+      <backend.mock.aws.s3.port>#placeHolder17</backend.mock.aws.s3.port>
+      <backend.mock.ftp.port>#placeHolder18</backend.mock.ftp.port>
       <run.tests.on>backend-mock</run.tests.on>
    </properties>
 </profile>

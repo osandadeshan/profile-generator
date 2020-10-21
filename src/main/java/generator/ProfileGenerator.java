@@ -49,16 +49,17 @@ public class ProfileGenerator {
         // Split the whole "portsFromJenkins" string by line breaks and assign it to a string array named "portsArray"
         String[] portsArray = portsFromJenkins.split("\\r?\\n");
 
-        // Remove the dash line elements from the "portsArray" string array
+         // Remove the dash line elements from the "portsArray" string array
         portsArray = ArrayUtils.remove(portsArray, 2);
         portsArray = ArrayUtils.remove(portsArray, 7);
-        portsArray = ArrayUtils.remove(portsArray, 15);
+        portsArray = ArrayUtils.remove(portsArray, 10);
+        portsArray = ArrayUtils.remove(portsArray, 12);
+        portsArray = ArrayUtils.remove(portsArray, 17);
 
         // Remove the unwanted elements from the "portsArray" string array (Mock Server ActiveMQ:, Fake Email Server:, Funder Dashboard Admin:, Emulated Thirdparty Services Port:)
         portsArray = ArrayUtils.remove(portsArray, 1);
-        portsArray = ArrayUtils.remove(portsArray, 11);
-        portsArray = ArrayUtils.remove(portsArray, 13);
-        portsArray = ArrayUtils.remove(portsArray, 15);
+        portsArray = ArrayUtils.remove(portsArray, 16);
+        portsArray = ArrayUtils.remove(portsArray, 18);
 
         // Create a string array list named "portsArrayList" from the "portsArray" string array
         ArrayList<String> portsArrayList = new ArrayList<>(Arrays.asList(portsArray));
