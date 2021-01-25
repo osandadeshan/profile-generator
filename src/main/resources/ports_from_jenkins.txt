@@ -1,26 +1,27 @@
-Mock Server Configuration: 13871
-	Mock Server ActiveMQ: 1905
+	Mock Server Configuration: 14749
+	Mock Server ActiveMQ: 8317
 	------------------
-	AS Portal UI: 15211
-	AS Backend: 3741
-	AS Backend Internal: 26613
-	WPP Admin Portal UI: 15829
-	WPP Admin Backend: 7763
+	AS Portal UI: 1524
+	AS Backend: 2287
+	AS Backend Internal: 29230
+	WPP Admin Portal UI: 1903
+	WPP Admin Backend: 9722
 	------------------
-	Authentication Service: 6889
-	Notification Service: 2400
-	Product Service: 28397
+	Authentication Service: 1313
+	Notification Service: 10730
+	Product Service: 18999
+	Product Service v2: 2911
 	------------------
-	Proofing Service: 24877
-	Proofing Service Internal: 3509
+	Proofing Service: 13496
+	Proofing Service Internal: 1277
 	------------------
-	Participants Service: 14881
-	Funder Dashboard: 3470
-	Funder Dashboard Admin: 3927
-	Funder Dashboard UI: 23259
-	AS BPM: 17111
+	Participants Service: 2254
+	Funder Dashboard: 24956
+	Funder Dashboard Admin: 28825
+	Funder Dashboard UI: 8953
+	AS BPM: 26352
 	------------------
-	Fake Email Server: 29119
-	AWS S3 Server: 13529
-	EM FTP Server: 27479
-	Emulated Thirdparty Services Port: 13288
+	Fake Email Server: 12403
+	AWS S3 Server: 18136
+	EM FTP Server: 24779
+	Emulated Thirdparty Services Port: 21695
