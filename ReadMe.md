@@ -1,30 +1,24 @@
 # Profile Generator
-<br />
 
 ## Introduction
 The main reason for developing this tool is to minimize the hassle and time consumption in copy pasting ports for each service from **jenkins** into the **`pom.xml`**.
-<br /><br />
 
 ## Tools & Technologies used
 - Java
 - Apache Commons
 - Apache Maven
-<br />
 
 ## Supported Platforms
 - Windows
 - Linux
 - Mac OS
-<br />
 
 ## Supported Languages
 - Java
-<br />
 
 ## Pre Requisites
 1. Java
 2. Maven
-<br />
 
 ## How to use?
 1) Clone this project to your local machine.
@@ -56,4 +50,3 @@ Please note that the stars`(****)` indicate a service
 ```
 3) Double click on **`run.bat`**
 4) Go to your **`pom.xml`** file and in the profiles section paste the formatted profile (Ctrl + V). This will paste the converted profile in to the **`pom.xml`**
-<br />
